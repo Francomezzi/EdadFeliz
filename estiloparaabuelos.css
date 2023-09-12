@@ -1,0 +1,275 @@
+* {
+	font-family: 'Lora', serif;
+	box-sizing: border-box;
+
+}
+
+
+:root{
+	--primary: rgba(0, 0, 0, 0.65);
+	--secondary: rgba(0, 0, 0, 0.65);
+	--terciario: rgba(31, 59, 151, 0.90);
+}
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+}
+
+.sobrenosotros img{
+	display: none;
+}
+
+h1{ font-size: 3.5em; }
+h2{ font-size: 2em; }
+h3{ font-size: 1.5em; }
+p{ font-size: 1em; }
+
+button{
+	color:#fff ;
+	background: #1f3b97;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 10px 30px;
+	border-radius: 10px;
+	border:none;
+	box-shadow: 2px 2px 5px #000;
+}
+
+button:hover{
+	background: #227;
+}
+
+.container{
+	max-width: 1400px;
+	margin: auto;
+	
+}
+
+header{
+	background: linear-gradient(135deg, var(--terciario), var(--terciario)), 
+	            url(flores.jpg) no-repeat center center / cover ;
+	color: #fff;
+	border-bottom: 3px solid #000;
+}
+
+header .logo{
+	margin: 0;
+	padding: 25px 30px;
+	font-weight: bold;
+	font-size: 1.2em;
+
+
+}
+
+
+header .container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+header nav {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+
+header a {
+	padding: 5px 12px;
+	text-decoration:none ;
+	font-weight: bold;
+	color: #fff;
+	font-size: 1em;
+
+}
+
+
+header a:hover{
+	color:#000 ;
+}
+
+
+header b{
+	font-size: 25px;
+}
+
+.sobrenosotros{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	text-align: center;
+	flex-direction: column;
+	background: #fff;
+	padding: 120px 0px;
+
+}
+
+.sobrenosotros h2 {
+	color: #000;
+	margin: 0px 10px;
+	
+
+}
+
+.sobrenosotros p {
+	font-size: 1.2em;
+	margin: 0px 20px;
+
+
+}
+
+
+.img-nosotros2{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(135deg, var(--primary), var(--secondary)), 
+	            url(actividad3.jpg) no-repeat center center / cover ;
+	border-bottom: 3px solid #1f3b97;
+	text-shadow: 2px 0 0 #000;
+
+
+}
+
+.img-nosotros2 p {
+	font-size: 2em;
+	margin: 10px;
+}
+
+
+
+.actividades{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height:100vh;
+	color: #fff;
+	background: linear-gradient(135deg, var(--primary), var(--secondary)), 
+	            url(actividad1.jpg) no-repeat center center / cover ;
+	font-weight: bold;
+	border-top: 3px solid #1f3b97;
+	border-bottom: 3px solid #1f3b97;
+	font-size: 1.5em;
+	text-shadow: 2px 0 0 #000;
+	letter-spacing: 1px;
+}
+.actividades h2{
+	font-size: 1.8em;
+	
+}
+
+.actividades p{
+	font-size: 1em;
+	margin: 0px 10px;
+}
+
+
+.wpp{
+	background: #fff;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.wpp button{
+	margin-top: 12px;
+
+}
+
+.wpp p {
+	font-size: 1.2em;
+	margin: 0px 8px;
+}
+
+
+
+
+
+footer{
+	background: linear-gradient(135deg, var(--terciario), var(--terciario)), 
+	            url(flores.jpg) no-repeat center center / cover ;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0px;
+
+}
+
+
+footer p{
+	margin: 10px;
+	display: inline-block;
+}
+
+
+footer b{
+	font-size: 20px;
+}
+
+html {
+	scroll-behavior:smooth;
+}
+
+
+
+@media (min-width: 720px) {
+    header{
+    	position: fixed;
+    	width: 100%;
+    	
+
+    }
+
+	header .container{
+		flex-direction: row;
+		justify-content: space-between;
+
+	}
+
+	header nav{
+		flex-direction: row;
+		padding-bottom: 0px;
+		padding-right: 20px;
+	}
+
+	.sobrenosotros{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	text-align: center;
+	flex-direction: column;
+	background: #fff;
+	padding: 80px 0px;
+
+}
+
+.sobrenosotros img{
+	display: inline-block;
+	width: 1280px;
+	height: 720px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	border-radius:50px;
+	box-shadow: 10px 10px 10px 0px #1f3b97;
+}
+
+.img-nosotros2 p {
+	font-size: 2.2em;
+}
+
+
+
+}
+
